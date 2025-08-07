@@ -1,0 +1,45 @@
+/* Smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ID-specific scroll padding for navigation targets */
+#about {
+  scroll-margin-top: 135px;
+}
+
+#menus {
+  scroll-margin-top: 185px;
+}
+
+#reservation {
+  scroll-margin-top: 135px;
+}
+
+
+
+/* Custom smooth scrolling with slower duration */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Alternative: Even slower scrolling using CSS transition */
+html, body {
+  scroll-behavior: smooth;
+}
+
+/* For even smoother/slower scrolling, you can use this approach */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .tabs.is-toggle li.is-active a {
+    background-color: #000000 !important;
+    color: #f5f5f5 !important;
+  }
+  .tabs.is-toggle li.is-active a {
+    border-color: #f5f5f5 !important;
+  }
+  
+}
