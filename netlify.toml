@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "/"
+  to = "/mme-betty"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
