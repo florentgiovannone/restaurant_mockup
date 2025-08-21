@@ -27,7 +27,7 @@ export default function HeroPage() {
             <div className="hero-body" style={{ zIndex: 2, position: 'relative' }}>
                 <div className="container has-text-centered">
                     <h2 className="title is-2 has-text-white">
-                        Welcome to our home
+                        Welcome to Bistro Mme Betty
                     </h2>
                     <button className="button is-light is-large is-outlined" onClick={() => {
                         window.location.href = '/#reservation';

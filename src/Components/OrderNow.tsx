@@ -17,7 +17,7 @@ export default function OrderNow({ handleAddToCart }: { handleAddToCart: (item: 
             <div className="container" style={{ padding: '0 1rem' }}>
                 <h2 className="title is-2-desktop is-3-tablet is-4-mobile mb-6 has-text-centered" style={{ color: '#000000' }}>Order Now</h2>
                 <p className="subtitle is-4-desktop is-5-tablet is-6-mobile has-text-centered mb-6" style={{ color: '#000000' }}>
-                    Order your favorite dishes now and experience the best of our restaurant.
+                    Order your favorite dishes now and experience the best of our Bistro.
                 </p>
             </div>
             <div className="container" style={{ padding: '0 1rem' }}>

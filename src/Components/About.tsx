@@ -11,7 +11,7 @@ export default function About() {
                 <h2 className="title is-2 mb-6">About Us</h2>
                 <div className="content is-medium has-text-grey-dark">
                     <p className="is-size-4">
-                        Welcome to our home, where passion meets flavor. Since opening our doors,
+                        Welcome to Bistro Mme Betty, where passion meets flavor. Since opening our doors,
                         we've been committed to serving delicious, high-quality food made from the freshest ingredients.
                         Our menu is inspired by timeless culinary traditions, crafted with care to satisfy every palate.
                     </p>
