@@ -92,8 +92,8 @@ function App() {
           backgroundColor: '#f5f5f5'
         }}>
           <Routes>
-            <Route path="/mme-betty" element={<Home />} />
-            <Route path="/mme-betty/order-now" element={<OrderNow handleAddToCart={handleAddToCart} />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/order-now" element={<OrderNow handleAddToCart={handleAddToCart} />} />
           </Routes>
         </main>
         <Footer />
