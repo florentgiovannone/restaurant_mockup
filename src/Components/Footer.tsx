@@ -27,7 +27,7 @@ export default function Footer() {
                     {/* Logo and Description */}
                     <div className="column is-12-mobile is-6-tablet is-4-desktop">
                         <div className="has-text-centered-mobile has-text-left-tablet">
-                            <a href="/">
+                            <a href="/mme-betty">
                                 <img
                                     src={Logo}
                                     alt="Company Logo"

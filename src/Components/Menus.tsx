@@ -119,7 +119,7 @@ export default function Menus() {
             </div>
             <div className="container has-text-centered is-hidden-mobile">
                 <button className="button is-light is-large is-outlined" style={{ marginTop: '7rem' }} onClick={() => {
-                    window.location.href = '/order-now';
+                    window.location.href = '/mme-betty/order-now';
                 }}>
                     <span>Order Now</span>
                 </button>

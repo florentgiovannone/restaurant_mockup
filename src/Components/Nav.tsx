@@ -32,7 +32,7 @@ export default function Nav({ cart, handleRemoveAllFromCart, handleRemoveFromCar
             >
                 <div className="container is-fluid">
                     <div className="navbar-brand" style={{ height: 'auto', display: 'flex', alignItems: 'center' }}>
-                        <a className="navbar-item" href="/" style={{ padding: '0.5rem', height: '100%', display: 'flex', alignItems: 'center' }}>
+                        <a className="navbar-item" href="/mme-betty" style={{ padding: '0.5rem', height: '100%', display: 'flex', alignItems: 'center' }}>
                             <img
                                 src={Logo}
                                 alt="Company Logo"
